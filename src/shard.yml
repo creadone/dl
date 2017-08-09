@@ -1,0 +1,6 @@
+name: dl
+version: 0.1.0
+
+dependencies:
+  admiral:
+    github: jwaldrip/admiral.cr
