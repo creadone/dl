@@ -1,4 +1,4 @@
-*dl* is utility for download files by URLs from list
+DL — utility for download files by URLs from list
 
 Usage:
 
