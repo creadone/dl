@@ -16,7 +16,11 @@ class Dl < Admiral::Command
     end
 
     lines.each do |url|
-      Downloader.new(url, flags.output).run
+      begin
+        Downloader.new(url, flags.output).run
+      rescue e
+        puts e.message; next
+      end
     end
   end
 
